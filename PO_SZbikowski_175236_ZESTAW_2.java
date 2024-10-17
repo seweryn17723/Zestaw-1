@@ -106,18 +106,14 @@ public class Main {
         System.out.println("Powiekszona 7 razy: " + (liczbazad5 * 7));
         System.out.println("Pomniejszona 13 razy: " + (liczbazad5 / 13));
         System.out.println("Modulo 7: " + (liczbazad5 % 7));
-        //DOKONCZYC!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        //DOKONCZYC!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        //DOKONCZYC!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        //DOKONCZYC!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        System.out.println("Czesc calkowita z dzielenia przez 4: " + (liczbazad5 / 4));
+        System.out.println("Czesc calkowita z dzielenia przez 4: " + (int)(liczbazad5 / 4));
         System.out.println("Podniesona do potegi 45: " + (Math.pow(liczbazad5, 45)));
-        System.out.println("Iloraz bitowy z 67: " + "brak informacji");
-        System.out.println("Suma bitowa z 59: " + "brak informacji");
-        System.out.println("Iloraz bitowy z 67: " + "brak informacji");
-        System.out.println("XOR z 23: " + "brak informacji");
-        System.out.println("Przesunięta o 5 bitow w lewo" + "brak informacji");
-        System.out.println("Przesunieta o 6 bitow w prawo: " + "brak informacji");
+        System.out.println("Iloraz bitowy z 67: " + (int)liczbazad5+(int)67);
+        System.out.println("Suma bitowa z 59: " + ((int)(liczbazad5) | (int)59));
+        System.out.println("Iloczyn bitowy z 67: " + ((int)(liczbazad5) & (int)67));
+        System.out.println("XOR z 23: " + ((int)liczbazad5 ^ (int)23));
+        System.out.println("Przesunięta o 5 bitow w lewo: " + ((int)(liczbazad5) << (int)5));
+        System.out.println("Przesunieta o 6 bitow w prawo: " + ((int)(liczbazad5) >> (int)6));
 
         pobieranie3.close();
 
