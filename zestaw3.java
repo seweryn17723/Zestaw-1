@@ -87,45 +87,45 @@ public class Main {
 
     public static void main(String[] args) {
 
-//        //Zadanie 1, trójka pitagorejska
-//
-//        Scanner zadanie1 = new Scanner(System.in);
-//
-//        System.out.println("Podaj zakres n: ");
-//        int zakres_z1 = zadanie1.nextInt();
-//
-//
-//        trojkiPitagorejskie(zakres_z1);
-//
-//        //Zadanie 6, piramida
-//
-//        Scanner zadanie6 = new Scanner(System.in);
-//        System.out.println("Podaj wysokość piramidy: ");
-//        int height = zadanie6.nextInt();
-//
-//        System.out.println("Podaj wariant: ");
-//        int variant = zadanie6.nextInt();
-//
-//        piramida(height, variant);
-//
-//        //Zadane 7
-//
-//        System.out.println("Podaj liczbę całkowitą n: ");
-//        Scanner zadanie7 = new Scanner(System.in);
-//        int n_z7 = zadanie7.nextInt();
-//
-//        System.out.println(silnia(n_z7));
-//
-//        //Zadanie 10
-//
-//        Scanner zadanie10 = new Scanner(System.in);
-//        System.out.println("Podaj n: ");
-//        int n_z10 = zadanie10.nextInt();
-//
-//        System.out.println("Podaj k: ");
-//        int k_z10 = zadanie10.nextInt();
-//
-//        System.out.println("Dwumian Newtona: " + dwumianNewtona(n_z10,k_z10));
+       //Zadanie 1, trójka pitagorejska
+
+       Scanner zadanie1 = new Scanner(System.in);
+
+       System.out.println("Podaj zakres n: ");
+       int zakres_z1 = zadanie1.nextInt();
+
+
+       trojkiPitagorejskie(zakres_z1);
+
+       //Zadanie 6, piramida
+
+       Scanner zadanie6 = new Scanner(System.in);
+       System.out.println("Podaj wysokość piramidy: ");
+       int height = zadanie6.nextInt();
+
+       System.out.println("Podaj wariant: ");
+       int variant = zadanie6.nextInt();
+
+       piramida(height, variant);
+
+       //Zadane 7
+
+       System.out.println("Podaj liczbę całkowitą n: ");
+       Scanner zadanie7 = new Scanner(System.in);
+       int n_z7 = zadanie7.nextInt();
+
+       System.out.println(silnia(n_z7));
+
+       //Zadanie 10
+
+       Scanner zadanie10 = new Scanner(System.in);
+       System.out.println("Podaj n: ");
+       int n_z10 = zadanie10.nextInt();
+
+       System.out.println("Podaj k: ");
+       int k_z10 = zadanie10.nextInt();
+
+       System.out.println("Dwumian Newtona: " + dwumianNewtona(n_z10,k_z10));
 
         //Zadanie 11
 
